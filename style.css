@@ -1,0 +1,32 @@
+body {
+   height: 100vh;
+   display: flex;
+   margin: 0;
+   /* background: linear-gradient(135deg, #f53844, #fc9842); */
+   align-items: center;
+   justify-content: center;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.group {
+   text-align: center;
+   white-space: nowrap;
+   overflow: hidden;
+}
+
+.item {
+   width: 12vw;
+   height: 75vh;
+   background-position: cover;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   background-size: cover 75vh;
+   margin: 0.7vw;
+   border-radius: 2.5vw;
+   display: inline-block;
+   cursor: pointer;
+   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.5);
+}
