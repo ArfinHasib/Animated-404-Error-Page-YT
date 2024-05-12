@@ -21,5 +21,7 @@ const expand = (item, i) => {
 
 items.forEach((item, i) => {
    item.clicked = false;
-   item.addEventListener('click', () => expand(item, i));
+   item.addEventListener('click', () => {
+      expand(item, i);
+   });
 });

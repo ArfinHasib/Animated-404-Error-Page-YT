@@ -2,13 +2,14 @@ body {
    height: 100vh;
    display: flex;
    margin: 0;
-   /* background: linear-gradient(135deg, #f53844, #fc9842); */
+   background: url(assets/bg.png) center center/cover no-repeat;
    align-items: center;
    justify-content: center;
    -webkit-user-select: none;
    -moz-user-select: none;
    -ms-user-select: none;
    user-select: none;
+   backdrop-filter: blur(40px);
 }
 
 .group {
@@ -19,12 +20,13 @@ body {
 
 .item {
    width: 12vw;
-   height: 75vh;
-   background-position: cover;
+   height: 70vh;
+   background-position: center;
    background-repeat: no-repeat;
-   object-fit: cover;
+   /* object-fit: cover; */
    background-size: cover 75vh;
    margin: 0.7vw;
+   border: 2px solid white;
    border-radius: 2.5vw;
    display: inline-block;
    cursor: pointer;
